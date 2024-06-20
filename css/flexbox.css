@@ -1,29 +1,2 @@
-body{
-    background-color: #F8F6F4;
-} 
 
-.menu {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 2%;
-}
-
-.menu_header {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    font-size: 0.8rem;
-    gap: 8px;
-    white-space: nowrap;
-    margin-right: 10px;
-}
-
-.menu_list {
-    display: flex;
-    padding: 0%;
-    gap: 20px;
-}
 
