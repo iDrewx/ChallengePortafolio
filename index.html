@@ -1,228 +1,241 @@
+
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Hojas de estilos de CSS -->
-    <link rel="reset" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="flexbox" href="css/flexbox.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Fuente del proyecto -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <title>Challenge Portafolio</title>
-    <!-- Favicon -->
-    <link href="img/favicon.png" rel="favicon" type="image/x-icon" />
-  </head>
-
-  <body>
-    <!-- Seccion del menu -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Mi Portafolio</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <div class="tudo">
     <section class="menu">
-      <header class="menu_header">
-        <img class="image_logo" src="img/vector.png" />
-        <h3 class="menu_title">Andre Lara</h3>
-      </header>
-      <nav>
-        <ul class="menu_list">
-          <li class="menu_list_item"><a href="#sobre-mi">Sobre mi</a></li>
-          <li class="menu_list_item"><a href="#skills">Skills</a></li>
-          <li class="menu_list_item"><a href="#hobbies">Hobbies</a></li>
-          <li class="menu_list_item"><a href="#formacion">Formacion</a></li>
-          <li class="menu_list_item"><a href="#xp">Proyectos</a></li>
-          <li class="menu_list_item">
-            <a href="#contacto">lalf279@gmail.com</a>
-          </li>
-        </ul>
-      </nav>
+        <header class="menu__header">
+            <img class="img" src="img/vector.png">
+            <h3 class="menu__title">André Lara</h3>
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">lalf279@gmail.com</a></li>
+            </ul>
+            <li class="menu__list__item__contato"><a href="#contacto">lalf279@gmail.com</a></li> 
+        </nav>
     </section>
 
-    <!-- Seccion Header/Titulo -->
+    <!-- Sección del Header/Title/Hero -->
     <section class="title">
-      <div class="title_div">
-        <img class="title_profile" src="img/profile.png" />
-        <div class="title_container">
-          <h2 class="title_bio">
-            Hola, mi nombre es Andre Lara y construyo paginas web
-          </h2>
-          <h3 class="title_subsection">
-            Mi verdadera pasión reside en la tecnología y la programación.
-            Actualmente, estoy enfocado en convertirme en un desarrollador
-            front-end. Actualmente estoy participando en el proyecto One Next
-            Education de Alura LATAM
-          </h3>
-          <ul class="title_network">
-            <li class="title_network_item">
-              <a href="">Github<img src="img/arrow.png" /></a>
-            </li>
-            <li class="title_network_item">
-              <a href="">Linkedin<img src="img/arrow.png" /></a>
-            </li>
-            <li class="title_network_item">
-              <a href="">Curriculum<img src="img/arrow.png" /></a>
-            </li>
-            <li class="title_network_item">
-              <a href="">Instagram<img src="img/arrow.png" /></a>
-            </li>
-            <li class="title_network_item">
-              <a href="">Curriculum<img src="img/arrow.png" /></a>
-            </li>
-          </ul>
+        <div class="title__div">
+            <img class="title__profile" src="img/profile.png">
+            <div class="title__container">
+                <h2 class="title__bio">Hola, mi nombre es Andre Lara y construyo paginas web</h2>
+                <h3 class="title__subsection">Mi verdadera pasión reside en la tecnología y la programación. Actualmente, estoy enfocado en convertirme en un desarrollador front-end y estoy participando en el proyecto One Next Education de Alura LATAM </h3>
+                <ul class="title__network">
+                     <!-- Pon los enlaces de tus redes sociales favoritas -->
+                    <li class="title__network__item"><a href="">Github <img src="img\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="">Linkedin <img src="img\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Instagram <img src="img\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Currículo <img src="img\arrow.png"></a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
-    <!-- Seccion acerca de mi -->
+    
+    <!-- Sección sobre mi -->
     <section class="about" id="sobre-mi">
-      <div class="about_container">
-        <h3 class="about_title">Sobre mi</h3>
-        <p class="about_paragraph">
-          Me emociona estar al día con las últimas tendencias tecnológicas y
-          explorar nuevas herramientas y frameworks. Disfruto creando soluciones
-          a través del código y resolviendo desafíos lógicos.
-        </p>
-        <p class="about_paragraph">
-          Mi objetivo es seguir creciendo profesionalmente y contribuir de
-          manera significativa al éxito de mi equipo y organización. Estoy
-          entusiasmado por lo que el futuro me depara como desarrollador
-          front-end.
-        </p>
-      </div>
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph"> Con más de 8 años de experiencia en el área de TI. Me emociona estar al día con las últimas tendencias tecnológicas y explorar nuevas herramientas y frameworks. Disfruto creando soluciones a través del código y resolviendo desafíos lógicos. </p>
+            <p class="about__paragraph">Mi objetivo es seguir creciendo profesionalmente y contribuir de manera significativa al éxito de mi equipo y organización. Estoy entusiasmado por lo que el futuro me depara como desarrollador front-end.</p>
+            <!-- Si quieres, pon tú firma acá! -->
+            <!-- <img src="assets\signature.png"> -->
+        </div>
     </section>
 
-    <!-- Seccion de Skilss -->
+    <!-- Sección de Skills -->
     <section class="skills" id="skills">
-      <h3 class="skills_title">Skills</h3>
-      <div class="skills_line">
-        <div class="skills_box">
-          <ul>
-            <li class="skills_img"><img src="img/html.png" /></li>
-            <li class="skills_name">HTML 5</li>
-          </ul>
-        </div>
+        <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="img\htlm.png"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
 
-        <div class="skills_box">
-          <ul>
-            <li class="skills_img"><img src="img/css.png" /></li>
-            <li class="skills_name">CSS</li>
-          </ul>
-        </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="img\js_icon.png" alt=""></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
 
-        <div class="skills_box">
-          <ul>
-            <li class="skills_img"><img src="img/javascript.png" /></li>
-            <li class="skills_name">JavaScript</li>
-          </ul>
-        </div>
+                <!-- <div class="skills__box"> 
+                      <ul>
+                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__name">Node JS</li>
+                    </ul>
+                </div> -->
 
-        <div class="skills_box">
-          <ul>
-            <li class="skills_img"><img src="img/react.png" /></li>
-            <li class="skills_name">React</li>
-          </ul>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="img\css_icon.png" alt=""> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
         </div>
-      </div>
     </section>
 
-    <!-- Seccion de Hobbies -->
+    <!-- Sección de Hobbies -->
     <section class="hobbies" id="hobbies">
-      <h3 class="hobbies-title">Hobbies</h3>
-      <div class="hobbies_line">
-        <div class="hobbies_box">
-          <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Música</li>
-          </ul>
-        </div>
+        <h3 class="hobbies__title">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="img\tv_icon.png" alt=""></li>
+                        <li class="hobbies__name">Juegos</li>
+                    </ul>
+                </div>
 
-        <div class="hobbies_box">
-          <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Películas</li>
-          </ul>
-        </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="img\headphones_icon.png" alt=""></li>
+                        <li class="hobbies__name">Música</li>
+                    </ul>
+                </div>
 
-        <div class="hobbies_box">
-          <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Gastronomía</li>
-          </ul>
-        </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="img\camera_icon.png" alt=""></li>
+                        <li class="hobbies__name">investigacion</li>
+                    </ul>
+                </div>
 
-        <div class="hobbies_box">
-          <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Bicicleta</li>
-          </ul>
-        </div>
-        <div class="hobbies_box">
-          <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Diseño</li>
-          </ul>
-        </div>
+                <div class="hobbies__box"> 
+                    <ul>
+                        <li class="hobbies__img"> <img src="img\forkspoon_icon.png" alt=""> </li>
+                        <li class="hobbies__name">Cocinar</li>
+                    </ul>
+                </div>
 
-        <div class="hobbies_box">
-          <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Juegos</li>
-          </ul>
+<!--                 <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
+                        <li class="hobbies__name">Tomar fotos</li>
+                    </ul>
+                </div> -->
         </div>
-      </div>
     </section>
 
-    <!-- Seccion formacion academica -->
-
+        <!-- Sección de Formación académica -->
     <section class="academic" id="formacion">
-      <h2 class="academic_title">Formacion Académica</h2>
-      <div class="academic__courses">
-        <div class="academic__courses__box">
-          <ul class="academic__courses__list">
-            <!-- Pon el logotipo de la institución de formación -->
-            <li class="academic__courses__item__img">
-              <img src="assets\ufpr_logo.png" />
-            </li>
-            <li class="academic__courses__item__title">
-              <h4>Programacion Front End</h4>
-            </li>
-            <li class="academic__courses__item__subtitle">
-              <p>2018 - UFPR</p>
-            </li>
-          </ul>
+        <h2 class="academic__title" >Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="img/uveg.jpg"></li>
+                    <li class="academic__courses__item__title"><h4>Licenciatura en ingenieria en desarrollo</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>UVEG - En curso</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="img\alura_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Formación en Front End</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>Alura - En curso</p></li>
+                </ul>
+            </div>
         </div>
-        <div class="academic__courses__box">
-          <ul class="academic__courses__list">
-            <!--Pon el logotipo de la institución de formación -->
-            <li class="academic__courses__item__img">
-              <img src="assets\alura_logo.png" />
-            </li>
-            <li class="academic__courses__item__title">
-              <h4>Formación en UX Design</h4>
-            </li>
-            <li class="academic__courses__item__subtitle">
-              <p>2019 - Alura</p>
-            </li>
-          </ul>
-        </div>
-        <div class="academic__courses__box">
-          <ul class="academic__courses__list">
-            <!-- Pon el logotipo de la institución de formación -->
-            <li class="academic__courses__item__img">
-              <img src="assets\ufrj_logo.png" />
-            </li>
-            <li class="academic__courses__item__title">
-              <h4>Posgrado en diseño</h4>
-            </li>
-            <li class="academic__courses__item__subtitle">
-              <p>En curso - UFRJ</p>
-            </li>
-          </ul>
-        </div>
-      </div>
     </section>
 
-    <!-- Seccion de experiencia profesional y proyectos -->
-  </body>
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title">Experiencia Profesional</h2>
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="img/aluramidi.jpg">
+            <div class="experience__info">
+                <h2 class="experience__title">Alura Midi</h2>
+                <h3 class="experience__text">Proyecto Alura Midi </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a href="https://github.com/iDrewx/AluraMIDI"><button class="experiencia__botao--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://idrewx.github.io/AluraMIDI/"><button class="experience__botao--demo">Demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="img/juegosecreto.jpg">
+            <div class="experience__info">
+                <h2 class="experience__title">Juego del Numero Secreto</h2>
+                <h3 class="experience__text">Proyecto Alura </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a href="https://github.com/iDrewx/JuegoSecreto"><button class="experiencia__botao--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://idrewx.github.io/JuegoSecreto/"><button class="experience__botao--demo">Demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="experience__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="img\encriptador.jpg">
+            <div class="experience__info-container">
+                <h2 class="experience__title">Encriptador de texto</h2>
+                <h3 class="experience__text">Challenge Alura </h3>
+                    <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a href="https://github.com/iDrewx/EncriptadorDeTexto"><button class="experiencia__botao--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://idrewx.github.io/EncriptadorDeTexto/"><button class="experience__botao--demo">Demo</button></a></span>
+                    </div>
+            </div>
+        </div>   
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div  class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <!-- <img class="formcontato__img" src="assets\contact_image.png"> -->
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontacto__subtext">Llena el siguiente formato y me pondré en contacto contigo a la brevedad.</h3>
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre Completo">
+                        <input class="formcontato__input" type="email" name="email" placeholder="Correo electronico">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escriba un mensaje aqui"></textarea>
+                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Andre Lara</p>
+                <p> - 2024</p>
+            </div>
+        </section>
+    </div>
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+</body>
 </html>
